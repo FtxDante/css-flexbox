@@ -28,7 +28,6 @@ header img {
 }
 header nav ul {
     display: flex;
-    
 }
 header nav ul li{
     margin: 0 15px;
@@ -88,3 +87,52 @@ header nav ul li a{
 }
 
 /* CONHEÇA O HOTEL*/
+.conheca-o-hotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.conheca-o-hotel h2{
+    font-size: 2rem;
+    margin-bottom: 25px; 
+    text-align: center;
+}
+.conheca-o-hotel p{
+    font-size: 1rem;
+    margin-bottom: 25px;
+    text-align: center;
+    max-width: 800px;
+}
+.conheca-o-hotel hr {
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    border: none;
+    margin-bottom: 70px;
+}
+
+.conheca-o-hotel .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conheca-o-hotel .grid li {
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+.conheca-o-hotel .grid .small{
+    flex-basis: 40%;
+}
+.conheca-o-hotel .grid .large{
+    flex-basis: 60%;
+}
+@media (max-width:960px){
+    .conheca-o-hotel .grid .small, .conheca-o-hotel .grid .large{
+        flex-basis: 100%;
+    } 
+}
