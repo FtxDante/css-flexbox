@@ -136,3 +136,55 @@ header nav ul li a{
         flex-basis: 100%;
     } 
 }
+
+/*CARACTERISTICAS*/
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #191c03;
+    color: white;
+}
+.caracteristicas h2{
+    font-size: 2rem;
+    margin-bottom: 25px; 
+    text-align: center;
+}
+.caracteristicas p{
+    font-size: 1rem;
+    margin-bottom: 25px;
+    text-align: center;
+    max-width: 800px;
+}
+.caracteristicas hr {
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+}
+.caracteristicas .grid {
+    display: flex;
+    margin-top: 10em;
+}
+.caracteristicas .grid li{
+    text-align: center;
+    padding: 0 30px;
+}
+.caracteristicas .grid li i{
+    font-size: 5em;
+    color: aquamarine;
+    margin-bottom: 1em;
+}
+.caracteristicas .grid li h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.caracteristicas .grid li p{
+    margin-bottom: 3em;
+}
+@media (max-width:760px){
+    .caracteristicas .grid{
+        flex-direction: column;
+    }
+}
