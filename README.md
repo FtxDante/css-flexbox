@@ -5,7 +5,7 @@
 2. **CSS3**
 3. **FlexBox**
 
-*Aprendi o que é uma imagem HERO* (Que é uma imagem de fundo com o contéudo centralizado no centro) e também coloquei em prática muito dos conhecimentos de flexbox.
+*Aprendi o que é uma imagem HERO* (Que é uma imagem de fundo com o contéudo centralizado) e também coloquei em prática muito dos conhecimentos de flexbox.
 
 ![Principal, área com a navegação e uma imagem HERO](https://github.com/FtxDante/css-flexbox/blob/main/node-curso/img/Principal.png)
 
