@@ -13,7 +13,5 @@
 
 ![NewsLetter, como para escrever o email](https://github.com/FtxDante/css-flexbox/blob/main/node-curso/img/NewsLetter.png)
 
-
-Curso do youtube canal: https://www.youtube.com/watch?v=KIKekNqq3so&list=PLwXQLZ3FdTVGjLmjwfRc0Q9TA5U-PCWp4&ab_channel=NodeStudioTreinamentos.
  
  
